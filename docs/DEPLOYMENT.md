@@ -14,6 +14,8 @@
 
 > Note: In the Vercel project settings ensure the **Root Directory** is the repository root (`.`), not `src/app/dashboard` or any folder inside `src/app`. If the Root Directory or Output Directory is set to `src/app/dashboard`, Vercel will look for `.next` at `src/app/dashboard/.next` and fail.
 
+> If you see an error about an Output Directory named `public` not found, open the Vercel Project Settings and clear the **Output Directory** (leave it empty) or set it to `.next`. For Next.js projects on Vercel the Output Directory is typically managed by the platform and should not be set to `public`.
+
 ## Backend: Render
 
 1. Create a Render Web Service.
