@@ -12,6 +12,8 @@
 4. Build command: `npm run build`
 5. Output: Next.js default.
 
+> Note: In the Vercel project settings ensure the **Root Directory** is the repository root (`.`). If the Root Directory is set to a subfolder (for example `src/app/dashboard`) Vercel will build from that subpath and look for `.next` there, causing the error described earlier.
+
 ## Backend: Render
 
 1. Create a Render Web Service.
