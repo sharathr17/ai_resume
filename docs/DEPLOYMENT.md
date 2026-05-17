@@ -10,9 +10,9 @@
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 4. Build command: `npm run build`
-5. Output: Next.js default.
+5. Output directory: leave blank in Vercel project settings so Vercel uses the Next.js default `.next` output.
 
-> Note: In the Vercel project settings ensure the **Root Directory** is the repository root (`.`). If the Root Directory is set to a subfolder (for example `src/app/dashboard`) Vercel will build from that subpath and look for `.next` there, causing the error described earlier.
+> Note: In the Vercel project settings ensure the **Root Directory** is the repository root (`.`), not `src/app/dashboard` or any folder inside `src/app`. If the Root Directory or Output Directory is set to `src/app/dashboard`, Vercel will look for `.next` at `src/app/dashboard/.next` and fail.
 
 ## Backend: Render
 
