@@ -1,0 +1,9 @@
+.next
+node_modules
+out
+coverage
+*.log
+.venv
+backend/.venv
+__pycache__
+*.pyc

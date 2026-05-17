@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic-settings==2.9.1
+python-multipart==0.0.20
+pdfplumber==0.11.6
+spacy==3.8.13
+scikit-learn==1.8.0
+google-generativeai==0.8.5
+reportlab==4.4.0
+supabase==2.15.1
+psycopg[binary]==3.3.4
